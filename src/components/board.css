@@ -1,0 +1,34 @@
+.board-grid {
+    display: grid;
+    gap: 10px; /* space between cards */
+    padding: 10px;
+    max-width: 80%; /* optional, set a max width for the grid */
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #eee;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 100px; /* adjust height as needed */
+    cursor: pointer;
+   
+}
+.card-flipped {
+    background-color: lightgreen; /* Color for flipped or solved cards */
+    color: black;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 100px; /* adjust height as needed */
+    cursor: pointer;
+}
+
+
